@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CrudWFModelStoreContainer" CdmEntityContainer="CrudWFEntities">
+    <EntitySetMapping Name="datos">
+      <EntityTypeMapping TypeName="CrudWFModel.datos">
+        <MappingFragment StoreEntitySet="datos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Fecha_Naciemiento" ColumnName="Fecha_Naciemiento" />
+          <ScalarProperty Name="Estado_Civil" ColumnName="Estado_Civil" />
+          <ScalarProperty Name="Grado_Academico" ColumnName="Grado_Academico" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
